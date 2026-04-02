@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="span-container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <script>
+        const spans = document.querySelectorAll("span");
+        for (let span of spans) {
+            span.textContent = "I am a span";
+            span.style.border = "2px solid green";
+        }
+    </script>
+</body>
+</html>
