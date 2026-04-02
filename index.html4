@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+    <div id="dv"></div>
+
+    <script>
+
+
+        const dv = document.querySelector("#dv");
+        dv.innerHTML = "<button>Click me!</button>";
+
+        const btn = document.querySelector("#dv button");
+        btn.style.backgroundColor = "lightgreen";
+    </script>
+</body>
+
+</html>
